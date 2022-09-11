@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+.cotainer{
+    background-image: url("back.jpg") ;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(41,50,60);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    color: white;
+    padding: 10px 40px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 35px;
+    
+    
+  }
+  
+  
+  li a:hover {
+   color: crimson;
+  }
+
+  .content{
+    
+    color: white;
+    padding: 15% 10%;
+    font-size: 35px;
+  }
+  .cta {
+    font-size: 2.5rem;
+    padding: 20px 60px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+a{
+    text-decoration: none;
+}
+
+.content a:hover {
+    background-color: crimson;
+   }
+
+   #formation{
+    display: flex;
+    flex-direction: column;
+    
+   }
+   #formation .formation-top{
+    padding-top: 100px;
+    margin: auto;
+
+   }
+   #formation .formation-top h1{
+    text-transform: uppercase;
+    font-weight:lighter;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-left:100px; 
+    padding-top: 10px;
+    text-align: center;
+
+   }
+   #formation .formation-top h1 span{
+    color: crimson;
+   }
+   #formation .formation-top p{
+    color: rgba(0, 0, 0, 0.498);
+    padding-left: 100px;
+    text-align: center;
+   }
+   #formation .formation-buttom {
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+   }
+   #formation .formation-buttom .diplomes{
+    border: 3px solid pink;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(./img/img-1.png);
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    
+    overflow: hidden;
+    background-color: black;
+    color: white;
+   }
+   #formation .formation-buttom .diplomes img{
+    height: 30px;
+    width: 30px;
+   }
+   #formation .formation-buttom .diplomes a{
+    border: 2px solid crimson;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+    letter-spacing: 2px;
+   }
+   .diplomes a:hover {
+    background-color: crimson;
+   }
+   #a-propos{
+    margin-top: 50px;
+   }
+   
+   #a-propos .container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  #a-propos .container img{
+    height: 100%;
+    width: 100%; 
+    border: 10px solid white;
+    
+  }
+  #a-propos .container .right{
+    
+    margin-left: 30px;
+    margin-bottom: 100px;
+  }
+
+  #a-propos .container .right .titre{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 0.4rem;
+  }
+  #a-propos .container .right .titre h1{
+    text-align: left;
+  }
+  #a-propos .container .right h1 span{
+    color: crimson;
+  }
+  #a-propos .container .right h2{
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  #a-propos .container .right p{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.507);
+  }
+  #a-propos .container .right a{
+    border: 2px solid crimson;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    
+    padding: 5px;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+  }
+  #a-propos .container .right .cta1{
+    display: inline-block;
+    padding: 10px 30px;
+    color: black;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+  }
+
+  #a-propos .container .right a:hover{
+    background-color: crimson;
+  }
